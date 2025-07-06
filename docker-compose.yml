@@ -13,8 +13,8 @@ services:
     volumes:
       - ./htdocs:/var/www/html
     ports:
-      - "8080:80"
-      - "8081:443"
+      - "80800:80"
+      - "80810:443"
     restart: unless-stopped
     user: apache:apache
     depends_on:
